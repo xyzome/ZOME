@@ -58,7 +58,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://x.com/zome_techagency"
+                    href="https://x.com/zomeagency"
                     className="hover:underline"
                     aria-label="ZOME Twitter"
                   >
@@ -67,7 +67,7 @@ function Footer() {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/in/zome-tech-agency-963a2233a/"
+                    href="https://www.linkedin.com/in/zome-tech-agency-949b24343/"
                     className="hover:underline"
                     aria-label="ZOME LinkedIn"
                   >
@@ -110,7 +110,7 @@ function Footer() {
 
             {/* Twitter Icon from lucide-react */}
             <a
-              href="https://x.com/zome_techagency"
+              href="https://x.com/zomeagency"
               className="text-gray-400 hover:text-white ms-5"
               aria-label="ZOME Twitter"
             >
@@ -119,7 +119,7 @@ function Footer() {
 
             {/* LinkedIn Icon from lucide-react */}
             <a
-              href="https://www.linkedin.com/in/zome-tech-agency-963a2233a/"
+              href="https://www.linkedin.com/in/zome-tech-agency-949b24343/"
               className="text-gray-400 hover:text-white ms-5"
               aria-label="ZOME LinkedIn"
             >
