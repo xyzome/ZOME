@@ -77,6 +77,30 @@ function Contact() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://zome.in/contact" />
         <meta name="robots" content="index, follow" />
+
+        {/* Breadcrumb JSON-LD */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://zome.in"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Contact Us",
+                  "item": "https://zome.in/contact"
+                }
+              ]
+            }
+          `}
+        </script>
       </Helmet>
 
 

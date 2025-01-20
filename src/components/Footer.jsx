@@ -49,14 +49,14 @@ function Footer() {
               <ul className="text-gray-400 font-medium space-y-4">
                 <li>
                   <a
-                    href="https://www.instagram.com/zometechagency?igsh=eWFhZXcxNjh2ZTg3"
+                    href="https://www.instagram.com/zome_agency/"
                     className="hover:underline"
                     aria-label="ZOME Instagram"
                   >
                     Instagram
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://x.com/zomeagency"
                     className="hover:underline"
@@ -64,7 +64,7 @@ function Footer() {
                   >
                     Twitter
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a
                     href="https://www.linkedin.com/in/zome-tech-agency-949b24343/"
@@ -101,21 +101,21 @@ function Footer() {
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             {/* Instagram Icon from lucide-react */}
             <a
-              href="#"
+              href="https://www.instagram.com/zome_agency/"
               className="text-gray-400 hover:text-white ms-5"
               aria-label="ZOME Instagram"
             >
               <Instagram className="w-4 h-4" />
             </a>
 
-            {/* Twitter Icon from lucide-react */}
+            {/* Twitter Icon from lucide-react
             <a
               href="https://x.com/zomeagency"
               className="text-gray-400 hover:text-white ms-5"
               aria-label="ZOME Twitter"
             >
               <Twitter className="w-4 h-4" />
-            </a>
+            </a> */}
 
             {/* LinkedIn Icon from lucide-react */}
             <a

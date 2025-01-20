@@ -24,7 +24,7 @@ function Homepage() {
         <meta name="twitter:title" content="Join Zome - Connecting People" />
         <meta name="twitter:description" content="Zome helps you connect with friends, family, and communities of people who share your interests. Discover new groups, watch engaging content, and shop in the marketplace all in one place." />
         <meta name="twitter:image" content="path-to-your-image.jpg" /> {/* Replace with your image URL */}
-        <title>Zome - Tech Agency</title>
+        <title>Zome - Tech Agency | IT Solutions, Web Development, and Digital Growth</title>
       </Helmet>
 
       <Hero />

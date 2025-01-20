@@ -181,6 +181,31 @@ function Common() {
         <meta name="description" content={`Learn more about ${service.title}. ${service.description}`} />
         <meta name="keywords" content={`Service, ${service.title}, Development Process`} />
         <meta name="author" content="Zome" />
+
+        {/* Breadcrumb JSON-LD */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://zome.in"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": ${service.title},
+                  "item": "https://www.zome.in/service/${service.title.toLowerCase().replace(/ /g, '-')}"
+                }
+              ]
+            }
+          `}
+
+          </script>
       </Helmet>
       <HeroSection service={service} />
       <StepsSection steps={service.howWeWork} />

@@ -40,7 +40,7 @@
                     "content": "Cross-platform development with Flutter to ensure a consistent user experience across Android and iOS."
                 }
             ]
-        },
+                },
         {
             "id": 2,
             "title": "Web Development",
@@ -80,8 +80,7 @@
                     "title": "Full-Stack Solutions",
                     "content": "Combine front-end and back-end development to deliver complete web solutions."
                 }
-            ]
-        },
+            ]        },
         {
             "id": 3,
             "title": "Cloud Hosting",
@@ -120,7 +119,7 @@
                     "content": "Fully managed hosting services for effortless scalability and reliability."
                 }
             ]
-        },
+                },
         {
             "id": 4,
             "title": "Digital Marketing",
@@ -161,10 +160,10 @@
                     "content": "Drive immediate traffic with Google Ads and other PPC strategies."
                 }
             ]
-        },
+                },
         {
             "id": 5,
-            "title": "UI/UX Design",
+            "title": "UI and UX Design",
             "image": "https://i.postimg.cc/286D0f8W/png-transparent-mobile-app-ui-ux-design-illustration-removebg-preview.png",
             "description": "Craft intuitive and aesthetically pleasing designs that enhance user experience. Our design process bridges creativity and usability to deliver exceptional interfaces.",
             "bullets": [
@@ -242,6 +241,6 @@
                     "content": "Track campaign performance and provide detailed insights for continuous improvement."
                 }
             ]
-        }
+                }
     ]
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Users, CheckCircle, Award, Briefcase } from 'lucide-react';
 import CountUp from 'react-countup';
 import methodology from '../images/methodology.png';
 import { Link } from 'react-router-dom';
@@ -18,8 +17,33 @@ const AboutUs = () => {
                 <meta property="og:description" content="Explore our methodology, achievements, and why choosing us can help your business thrive." />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content="https://zome.in/about" />
-                <meta property="og:image" content="https://www.zome.in/assets/methodology-CCjzv7um.png" />   
+                <meta property="og:image" content="https://www.zome.in/assets/logo-BXeXjiAV.png" />
+
+                {/* Breadcrumb JSON-LD */}
+                <script type="application/ld+json">
+                    {`
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://zome.in"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "About Us",
+                  "item": "https://zome.in/about"
+                }
+              ]
+            }
+          `}
+                </script>
             </Helmet>
+
 
             {/* Hero Section */}
             <section className="relative overflow-hidden bg-gray-900 text-white" data-aos="fade-up">
